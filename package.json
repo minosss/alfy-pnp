@@ -1,0 +1,14 @@
+{
+  "name": "alfy-pnp",
+  "description": "alfy and yarn pnp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "minosss/alfy-pnp",
+  "license": "MIT",
+  "dependencies": {
+    "alfy": "*"
+  },
+  "installConfig": {
+    "pnp": true
+  }
+}
