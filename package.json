@@ -1,14 +1,26 @@
 {
-  "name": "alfy-pnp",
+  "name": "alfy-pnp-example",
   "description": "alfy and yarn pnp",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
-  "repository": "minosss/alfy-pnp",
+  "repository": "minosss/alfy-pnp-example",
   "license": "MIT",
+  "scripts": {
+    "test": "ava"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
   "dependencies": {
     "alfy": "*"
   },
   "installConfig": {
     "pnp": true
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^2.2.0"
   }
 }
