@@ -6,6 +6,9 @@ alfy 可以很方便创建 Alfred 的 workflow。不过 node 有个问题就是�
 
 ## Install
 
+- 安装 [Alfred](https://www.alfredapp.com/)
+- 购买 [Powerpack](https://www.alfredapp.com/shop/)
+
 推荐使用 Yarn
 
 ```sh
@@ -19,3 +22,7 @@ $ yarn global add your-alfy-workflow
 ```
 ./node_modules/run-node index.js "$1"
 ```
+
+## Related
+
+- [alfy-ipip](https://github.com/minosss/alfy-ipip) - 查询 ip 信息
